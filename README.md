@@ -56,15 +56,15 @@ strlst=[]
 s='MIIIIIIII'
 count=0
 
-for i in range(len(s)-2):
+for i in range(len(s)-2):     #for each character in string less the length i am looking forward
     
-    if s[i]=='I' and s[i+1] == 'I' and s[i+2]=='I':
+    if s[i]=='I' and s[i+1] == 'I' and s[i+2]=='I':   #test 3 characters at a time
         count+=1
-        l = list(s)
-        l[i] = "U"
+        l = list(s)        #convert to a mutable list
+        l[i] = "U"         #make changes to list at indexes
         l[i+1] = ""
         l[i+2] =""
-        strlst.append("".join(l))
+        strlst.append("".join(l))   #convert back to string and append
         
         
         
