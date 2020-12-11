@@ -85,4 +85,8 @@ H. repeatedly highlights the important differences between formal and ordinary l
 >symbols. And instead of being proven, theorems are merely produced, as ifby
 >machine, according to certain typographical rules.
       
-      
+Hofstadter says 'Imagine a genie who has all the time in the world, and who enjoys
+using it to produce theorems of the MIU-system, in a rather methodical
+way.'
+
+muGenie.py is my attempt at this Genie. (see code in file mupuzzle)     
