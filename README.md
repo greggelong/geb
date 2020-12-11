@@ -4,6 +4,18 @@ A place to hold some code inspired by reading Gödel, Escher, Bach:  by Douglas 
 
 ## MU Puzzle
 
+The MU puzzle is a formal system that Hofstadter has us play with to get familiar with formal systems. 
+
+>Such strings, producible by the rules, are
+>called theorems. The term "theorem" has, of course, a common usage in
+>mathematics which is quite different from this one. 
+>It means some statement in ordinary language which has been proven to be true by a rigorous
+>argument, such as Zeno's Theorem about the "unexistence" of motion, or
+>Euclid's Theorem about the infinitude of primes. But in formal systems,
+>theorems need not be thought of as statements-they are merely strings of
+>symbols. And instead of being proven, theorems are merely produced, as ifby
+>machine, according to certain typographical rules.
+
 In order to code this formal stystem I am writing my own replacement algorithm for rule 3 and rule 4, 
 as replace() or regex would only catch one see previous code.
 
