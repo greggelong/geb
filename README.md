@@ -39,12 +39,14 @@ rule two: As M only ever appears at the start of a string it can be captured by:
 Rules 3 and 4 are a little different.
 
 In order to code this formal stystem I am writing my own replacement algorithm for rule 3 and rule 4, 
-as replace() or regex would only catch one see previous code.
+as replace() or regex would only catch one instance (two if you, reverse it) (see previous code. mupuzzle1-6.py)
+
+But we need to get every possible instance of 'III' or 'UU'
 
 It really seems that built in replace() is more for natural languages in these languages you rarely need to pick every set of three out of four or more identical characters.
 
 This actually highlights the character of formal languages and mechanical manipulation. So it's fitting that
-I must use a lower level approach to capture that character and get all the groups.
+I must use a lower level approach to capture this and get all possible instances.
 
 Here is some example code. Of this approach for rule  3: replace any 'III' with 'U'
 
