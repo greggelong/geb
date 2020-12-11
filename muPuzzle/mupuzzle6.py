@@ -28,7 +28,6 @@ def muRules(testString,nextgen):
         # test maybe use a strg replace function or regex regular expressions
         #newStrg = strg.replace("III","U",1) # replaces just the first occurance, not great
         rpString = re.sub(r"III",r"U",testString[::-1])
-        rpTuple = 
         nextgen.append(("from rule 3a", rpString[::-1])) # replaces all still not very good
         
        # re.sub(r"(house|the house)", r"**\1**", mystring)
